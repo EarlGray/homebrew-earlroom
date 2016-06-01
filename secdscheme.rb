@@ -1,9 +1,9 @@
 class Secdscheme < Formula
   desc "a small (partially R7RS) Scheme implementation based on the abstract machine SECD"
   homepage "https://github.com/EarlGray/SECD"
-  url "https://github.com/EarlGray/SECD/archive/0.1.0.tar.gz"
-  version "0.1.0"
-  sha256 "d785fb818b0ee129522c9bb095a2cfd010fad17c9de6f0d64145fa5d18b4b9c0"
+  url "https://github.com/EarlGray/SECD/archive/0.1.1.tar.gz"
+  version "0.1.1"
+  sha256 "2ad7ee14af2633e34a683f778266a58dc0d30be6e5fb55d0c0b8f967017756c8"
 
   def install
     system "make"
